@@ -64,4 +64,9 @@ Data and Model Summaries in R with `modelsummary` R package
 `ggstatsplot`: ggplot2 Based Plots with Statistical Details
 [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
+## Youtube tutorials of learning R
+
+
+Stat 412: R Programming by Kelsey Gonzalez
+[Stat 412](https://www.youtube.com/playlist?list=PL6FsZxVq54ERrlMRNE5aq2qUFH042fbuM)
 
