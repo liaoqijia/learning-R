@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Document Title</title>
+    <style>
+        body {
+            color: #333; /* Text color */
+            font-family: 'Arial', sans-serif; /* Font family */
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #0066cc; /* Heading color */
+        }
+
+        /* Add more custom styles as needed */
+    </style>
+</head>
+<body>
+    <!-- Your Markdown content here -->
+</body>
+</html>
+
 # Learning R for Behavioral Science
 Repository for learning R
 
