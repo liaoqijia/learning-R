@@ -15,6 +15,9 @@ Power Analysis using R
 R for applied epidemiology and public health (A great book) :fire:
 [R for applied epidemiology and public health](https://epirhandbook.com/en/index.html)
 
+Discovering Statistics Using R and RStudio (2nd edition)
+[Discovering Statistics Using R and RStudio (2nd edition)](https://www.discovr.rocks/discovr/)
+
 
 ## Different Ways to Specify Contrasts
 ```
@@ -51,6 +54,14 @@ Example can be referred to as follows::bangbang:
 ### Following up the Two-Way ANOVA, including Post-Hoc Analysis
 [Following up the Two-Way ANOVA](https://www.alexanderdemos.org/ANOVA9.html#Planned_Comparisons_of_Interaction)
 
+## My favourite R packages for summarize data and visualize data (I hate ggplot, there is always easy ways of visualizing data).
+Data and Model Summaries in R with `modelsummary` R package
+[Data and Model Summaries in R](https://modelsummary.com/)
 
+`ggpubr`: ggplot2 Based Publication Ready Plots (I use it almost everyday)
+[ggpubr](https://rpkgs.datanovia.com/ggpubr/index.html#ggpubr-ggplot2-based-publication-ready-plots)
+
+`ggstatsplot`: ggplot2 Based Plots with Statistical Details
+[ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
 
