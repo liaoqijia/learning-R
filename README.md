@@ -12,6 +12,8 @@ Learning Statistics with Python
 Power Analysis using R
 [A Practical Guide to Statistical Power and Sample Size Calculations in R](https://cran.r-project.org/web/packages/pwrss/vignettes/examples.html#7_Analysis_of_(Co)Variance_(F_Test))
 
+R for applied epidemiology and public health (A great book) :fire:
+[R for applied epidemiology and public health](https://epirhandbook.com/en/index.html)
 
 
 ## Different Ways to Specify Contrasts
