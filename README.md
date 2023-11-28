@@ -39,7 +39,7 @@ R for applied epidemiology and public health (A great book) :fire:
 * mod$contrasts  #if you want to check that it has actually worked, you can inspect the value of `mod$contrasts`.
 #choice of contrasts does not affect the outcome when you have a balanced design, but, it will have an impact when you have an unbalanced design.
 ```
-Example can be referred to as follows:
+Example can be referred to as follows::bangbang:
 * [car::Anova in R gives different p-values for TypeII vs TypeIII even though I have a balanced design?](https://stackoverflow.com/questions/68741417/caranova-in-r-gives-different-p-values-for-typeii-vs-typeiii-even-though-i-hav)
 
 * [Factorial ANOVA 3- Unbalanced Designs](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/16%3A_Factorial_ANOVA/16.10%3A_Factorial_ANOVA_3-_Unbalanced_Designs)
