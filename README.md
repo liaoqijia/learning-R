@@ -65,11 +65,12 @@ Data and Model Summaries in R with `modelsummary` R package
 [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
 ## Youtube tutorials of learning R
-Official cheatsheet for data wrangling:
+* Official cheatsheet for data wrangling:
 [Data Wrangling with dplyr and tidyr](data-wrangling-cheatsheet.pdf)
-Data wrangling with R in 27 minutes
+
+* Data wrangling with R in 27 minutes
 [Data wrangling with R in 27 minutes](https://www.youtube.com/watch?v=oXImkptBpqc&t=4s)
 
-Stat 412: R Programming by Kelsey Gonzalez
+* Stat 412: R Programming by Kelsey Gonzalez
 [Stat 412](https://www.youtube.com/playlist?list=PL6FsZxVq54ERrlMRNE5aq2qUFH042fbuM)
 
