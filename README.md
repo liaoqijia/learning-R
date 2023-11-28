@@ -14,4 +14,6 @@ Power Analysis using R
 
 
 
+## Different Ways to Specify Contrasts
+options( "contrasts" )
 
