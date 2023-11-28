@@ -42,6 +42,13 @@ Example can be referred to as follows:
 
 * [Factorial ANOVA 3- Unbalanced Designs](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/16%3A_Factorial_ANOVA/16.10%3A_Factorial_ANOVA_3-_Unbalanced_Designs)
 
+## ANOVA Analysis. I only list one-way and two-way anova analysis here, for more complex design, refer to the link below for details.
+### Follow Up to One-way ANOVAs, including Post-Hoc Analysis
+[Follow Up to One-way ANOVAs](https://www.alexanderdemos.org/ANOVA6.html)
+
+### Following up the Two-Way ANOVA, including Post-Hoc Analysis
+[Following up the Two-Way ANOVA](https://www.alexanderdemos.org/ANOVA9.html#Planned_Comparisons_of_Interaction)
+
 
 
 
