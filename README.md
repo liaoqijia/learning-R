@@ -66,7 +66,7 @@ Data and Model Summaries in R with `modelsummary` R package
 
 ## Youtube tutorials of learning R
 * Official cheatsheet for data wrangling:
-[Data Wrangling with dplyr and tidyr]([data-wrangling-cheatsheet.pdf](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf))
+[Data Wrangling with dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
 * Data wrangling with R in 27 minutes
 [Data wrangling with R in 27 minutes](https://www.youtube.com/watch?v=oXImkptBpqc&t=4s)
