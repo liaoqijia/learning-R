@@ -88,5 +88,6 @@ Data and Model Summaries in R with `modelsummary` R package
 * Stat 412: R Programming by Kelsey Gonzalez
 [Stat 412](https://www.youtube.com/playlist?list=PL6FsZxVq54ERrlMRNE5aq2qUFH042fbuM)
 
+</body> 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=YzQOP_fBsDlkAZUgID6y2FwJQmaKEWATTkzl1Mkb1KI'></script>
-
+</body> 
