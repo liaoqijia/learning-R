@@ -47,10 +47,11 @@ Example can be referred to as follows::bangbang:
 
 * [Factorial ANOVA 3- Unbalanced Designs](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/16%3A_Factorial_ANOVA/16.10%3A_Factorial_ANOVA_3-_Unbalanced_Designs)
 
-## Using the `afex` R package for ANOVA:
+## Using the `afex` R package (Analysis of Factorial Experiments) for ANOVA:
 `afex` R package is the go-to package for anova analysis, because you don't have to specify the contrast option as discussed above, it yields effect size; it can handle between-subjects design, within-subjects design, and mixed-design.  
 * [Using the `afex` R package for ANOVA](https://tysonbarrett.com/jekyll/update/2018/03/14/afex_anova/)
 * [Traditional ANOVA by Andy Wills](https://www.andywills.info/rminr/more-on-anova.html#:~:text=The%20aov_car%20command%20for%20this,Error(subj%2Fcongru)%20.)
+* Online collection of tutorials was created by graduate students in psychology as a resource for other experimental psychologists interested in using R for statistical analyses and graphics:
 * * [Between-Subjects ANOVA in R](https://ademos.people.uic.edu/Chapter20.html)
   * [ANOVA (afex): Within Subjects and Mixed Designs](https://ademos.people.uic.edu/Chapter21.html)
 
