@@ -90,4 +90,4 @@ Data and Model Summaries in R with `modelsummary` R package
 
 
 ## Track website visitors from all over the world
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=YzQOP_fBsDlkAZUgID6y2FwJQmaKEWATTkzl1Mkb1KI'></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=150&t=tt&d=YzQOP_fBsDlkAZUgID6y2FwJQmaKEWATTkzl1Mkb1KI&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
