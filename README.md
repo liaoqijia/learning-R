@@ -21,25 +21,25 @@ Discovering Statistics Using R and RStudio (2nd edition)
 
 ## Different Ways to Specify Contrasts
 ```
-* options( "contrasts" ) # by defult, it is treatment contrast
-* options(contrasts = c("contr.helmert", "contr.poly") # changed the default contrast
-* options(contrasts = c("contr.treatment", "contr.poly")
+options( "contrasts" ) # by defult, it is treatment contrast
+options(contrasts = c("contr.helmert", "contr.poly") # changed the default contrast
+options(contrasts = c("contr.treatment", "contr.poly")
 ```
 
 ### Setting the contrasts for a single factor
 ```
-* contrasts( clin.trial$drug ) <- contr.sum(3)
-* contrasts( clin.trial$drug)
-* contrasts( clin.trial$drug ) <- NULL # wipe the attribute and revert the defaults, use a command like this
+contrasts( clin.trial$drug ) <- contr.sum(3)
+contrasts( clin.trial$drug)
+contrasts( clin.trial$drug ) <- NULL # wipe the attribute and revert the defaults, use a command like this
 ```
 
 ### Setting the contrasts for a single factor (recommended)
 ```
-* my.contrasts <- list( drug = contr.helmert, therapy = contr.helmert )
-* mod <- lm( mood.gain ~ drug*therapy, clin.trial, contrasts = my.contrasts )
-* mod <- aov( mood.gain ~ drug*therapy, clin.trial, contrasts = my.contrasts )
-* car:: Anova(mod, type =3)
-* mod$contrasts  #if you want to check that it has actually worked, you can inspect the value of `mod$contrasts`.
+my.contrasts <- list( drug = contr.helmert, therapy = contr.helmert )
+mod <- lm( mood.gain ~ drug*therapy, clin.trial, contrasts = my.contrasts )
+mod <- aov( mood.gain ~ drug*therapy, clin.trial, contrasts = my.contrasts )
+car:: Anova(mod, type =3)
+mod$contrasts  #if you want to check that it has actually worked, you can inspect the value of `mod$contrasts`.
 #choice of contrasts does not affect the outcome when you have a balanced design, but, it will have an impact when you have an unbalanced design.
 ```
 Example can be referred to as follows::bangbang:
