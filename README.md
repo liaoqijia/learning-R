@@ -64,9 +64,15 @@ Data and Model Summaries in R with `modelsummary` R package
 `ggstatsplot`: ggplot2 Based Plots with Statistical Details
 [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
-## Youtube tutorials of learning R
+`ganttrify` facilitates the creation of nice-looking Gantt charts
+[ganttrify](https://github.com/giocomai/ganttrify)
+
+## Youtube tutorials of learning R (If you learn how to use tidyverse, you learn R!!!)
 * Official cheatsheet for data wrangling:
 [Data Wrangling with dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+
+* Introduction to the tidyverse by Andrew Heiss
+  [Introduction to the tidyverse](https://talks.andrewheiss.com/2021-seacen/01-tidyverse.html)
 
 * Data wrangling with R in 27 minutes
 [Data wrangling with R in 27 minutes](https://www.youtube.com/watch?v=oXImkptBpqc&t=4s)
