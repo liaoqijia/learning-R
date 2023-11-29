@@ -78,15 +78,18 @@ Data and Model Summaries in R with `modelsummary` R package
 ## Mediation Analysis with Hayes' Process in R
 The popular method for mediation analysis in marketing (consumer behavior) is Hayes' Process. You can also use `mediation` package in case it is the default method in your field.
 * PROCESS macro for SPSS, SAS, and R
-** [Download Address](https://haskayne.ucalgary.ca/CCRAM/resource-hub)
-** [R syntax for Process](http://www.regorz-statistik.de/en/mediation_process_for_r.html)
-** How to install Process in R
+* * [Download Address](https://haskayne.ucalgary.ca/CCRAM/resource-hub)
+* * [R syntax for Process](http://www.regorz-statistik.de/en/mediation_process_for_r.html)
+* * How to install Process in R
+
 ```
 Download the process syntax and save it to your working directory
 setwd()
 for example: setwd(dir = "/Users/nphillips/Dropbox/yarrr")
+
 use source function to read the process syntax
 source(file = "/Users/nphillips/Dropbox/yarrr/Process.R")
+
 now you can use the Process in your RStudio, just like anyother R package.
 process (data = my_data_frame, y = "my_DV", x = "my_IV", m ="my_mediator", model = 4)
 ```
