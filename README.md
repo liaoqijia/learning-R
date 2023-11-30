@@ -1,7 +1,7 @@
 # Learning R for Behavioral Science
 Repository for learning R
 
-## Learning Statistics with R by **Danielle Navarro**
+## Learning Statistics with R
 
 R for Psychological Science
 [Learning Statistics with R](https://learningstatisticswithr.com/)
@@ -42,7 +42,7 @@ car:: Anova(mod, type =3)
 mod$contrasts  #if you want to check that it has actually worked, you can inspect the value of `mod$contrasts`.
 #choice of contrasts does not affect the outcome when you have a balanced design, but, it will have an impact when you have an unbalanced design.
 ```
-Example can be referred to as follows::bangbang:
+Example can be referred to as follows: :bangbang:
 * [car::Anova in R gives different p-values for TypeII vs TypeIII even though I have a balanced design?](https://stackoverflow.com/questions/68741417/caranova-in-r-gives-different-p-values-for-typeii-vs-typeiii-even-though-i-hav)
 
 * [Factorial ANOVA 3- Unbalanced Designs](https://stats.libretexts.org/Bookshelves/Applied_Statistics/Learning_Statistics_with_R_-_A_tutorial_for_Psychology_Students_and_other_Beginners_(Navarro)/16%3A_Factorial_ANOVA/16.10%3A_Factorial_ANOVA_3-_Unbalanced_Designs)
@@ -62,7 +62,7 @@ Example can be referred to as follows::bangbang:
 ### Following up the Two-Way ANOVA, including Post-Hoc Analysis
 - [Following up the Two-Way ANOVA](https://www.alexanderdemos.org/ANOVA9.html#Planned_Comparisons_of_Interaction)
 
-## My favourite R packages for summarize data and visualize data (I hate ggplot, there is always easy ways of visualizing data).
+## My favorite R packages for summarizing and visualizing data. There are alternatives that offer simpler approaches to data visualization.
 - Data and Model Summaries in R with `modelsummary` R package
 - [Data and Model Summaries in R](https://modelsummary.com/)
 
