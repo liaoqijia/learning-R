@@ -57,31 +57,31 @@ Example can be referred to as follows::bangbang:
 
 ## ANOVA Analysis. I only list one-way and two-way anova analysis here, for more complex design, refer to the link below for details.
 ### Follow Up to One-way ANOVAs, including Post-Hoc Analysis
-[Follow Up to One-way ANOVAs](https://www.alexanderdemos.org/ANOVA6.html)
+- [Follow Up to One-way ANOVAs](https://www.alexanderdemos.org/ANOVA6.html)
 
 ### Following up the Two-Way ANOVA, including Post-Hoc Analysis
-[Following up the Two-Way ANOVA](https://www.alexanderdemos.org/ANOVA9.html#Planned_Comparisons_of_Interaction)
+- [Following up the Two-Way ANOVA](https://www.alexanderdemos.org/ANOVA9.html#Planned_Comparisons_of_Interaction)
 
 ## My favourite R packages for summarize data and visualize data (I hate ggplot, there is always easy ways of visualizing data).
-Data and Model Summaries in R with `modelsummary` R package
-[Data and Model Summaries in R](https://modelsummary.com/)
+- Data and Model Summaries in R with `modelsummary` R package
+- [Data and Model Summaries in R](https://modelsummary.com/)
 
-`ggpubr`: ggplot2 Based Publication Ready Plots (I use it almost everyday)
-[ggpubr](https://rpkgs.datanovia.com/ggpubr/index.html#ggpubr-ggplot2-based-publication-ready-plots)
+- `ggpubr`: ggplot2 Based Publication Ready Plots (I use it almost everyday)
+- [ggpubr](https://rpkgs.datanovia.com/ggpubr/index.html#ggpubr-ggplot2-based-publication-ready-plots)
 
-`ggstatsplot`: ggplot2 Based Plots with Statistical Details
-[ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
+- `ggstatsplot`: ggplot2 Based Plots with Statistical Details
+- [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
 
-`ganttrify` facilitates the creation of nice-looking Gantt charts
-[ganttrify](https://github.com/giocomai/ganttrify)
+- `ganttrify` facilitates the creation of nice-looking Gantt charts
+- [ganttrify](https://github.com/giocomai/ganttrify)
 
 ## Mediation Analysis with Hayes' Process in R
 The popular method for mediation analysis in marketing (consumer behavior) is Hayes' Process. You can also use `mediation` package in case it is the default method in your field.
 
 * PROCESS macro for SPSS, SAS, and R
-* [Download Address](https://haskayne.ucalgary.ca/CCRAM/resource-hub)
-* [R syntax for Process](http://www.regorz-statistik.de/en/mediation_process_for_r.html)
-* How to install Process in R
+- [Download Address](https://haskayne.ucalgary.ca/CCRAM/resource-hub)
+- [R syntax for Process](http://www.regorz-statistik.de/en/mediation_process_for_r.html)
+- How to install Process in R
 
 ```
 Download the process syntax and save it to your working directory
@@ -97,16 +97,16 @@ process (data = my_data_frame, y = "my_DV", x = "my_IV", m ="my_mediator", model
 
 
 ## Youtube tutorials of learning R (If you learn how to use tidyverse, you learn R!!!)
-* Official cheatsheet for data wrangling:
+- Official cheatsheet for data wrangling:
 [Data Wrangling with dplyr and tidyr](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 
-* Introduction to the tidyverse by Andrew Heiss
+- Introduction to the tidyverse by Andrew Heiss
   [Introduction to the tidyverse](https://talks.andrewheiss.com/2021-seacen/01-tidyverse.html)
 
-* Data wrangling with R in 27 minutes
+- Data wrangling with R in 27 minutes
 [Data wrangling with R in 27 minutes](https://www.youtube.com/watch?v=oXImkptBpqc&t=4s)
 
-* Stat 412: R Programming by Kelsey Gonzalez
+- Stat 412: R Programming by Kelsey Gonzalez
 [Stat 412](https://www.youtube.com/playlist?list=PL6FsZxVq54ERrlMRNE5aq2qUFH042fbuM)
 
 
