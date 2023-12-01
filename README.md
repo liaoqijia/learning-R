@@ -86,8 +86,8 @@ For more complex design, refer to the link below for details.
 - [Using the `afex` R package for ANOVA](https://tysonbarrett.com/jekyll/update/2018/03/14/afex_anova/)
 - [Traditional ANOVA by Andy Wills](https://www.andywills.info/rminr/more-on-anova.html#:~:text=The%20aov_car%20command%20for%20this,Error(subj%2Fcongru)%20.)
 - Online collection of tutorials was created by graduate students in psychology as a resource for other experimental psychologists interested in using R for statistical analyses and graphics:
-  --  [Between-Subjects ANOVA in R](https://ademos.people.uic.edu/Chapter20.html)
-  -- [ANOVA (afex): Within Subjects and Mixed Designs](https://ademos.people.uic.edu/Chapter21.html)
+-- [Between-Subjects ANOVA in R](https://ademos.people.uic.edu/Chapter20.html)
+-- [ANOVA (afex): Within Subjects and Mixed Designs](https://ademos.people.uic.edu/Chapter21.html)
 
 ## My favorite R packages for summarizing and visualizing data.
 <!-- anchor: my-favorite-r-packages-for-summarizing-and-visualizing-data -->
@@ -135,7 +135,6 @@ process (data = my_data_frame, y = "my_DV", x = "my_IV", m ="my_mediator", model
 
 ## A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker
 <!-- anchor: a-reproducible-data-analysis-workflow-with-r-markdown-git-make-and-docker -->
-## A Reproducible Data Analysis Workflow With R Markdown, Git, Make, and Docker
 
 In this tutorial, we describe a workflow to ensure long-term reproducibility of R-based data analyses. The workflow leverages established tools and practices from software engineering. It combines the benefits of various open-source software tools including R Markdown, Git, Make, and Docker, whose interplay ensures seamless integration of version management, dynamic report generation conforming to various journal styles, and full cross-platform and long-term computational reproducibility. The workflow ensures meeting the primary goals that 1) the reporting of statistical results is consistent with the actual statistical results (dynamic report generation), 2) the analysis exactly reproduces at a later point in time even if the computing platform or software is changed (computational reproducibility), and 3) changes at any time (during development and post-publication) are tracked, tagged, and documented while earlier versions of both data and code remain accessible. While the research community increasingly recognizes dynamic document generation and version management as tools to ensure reproducibility, we demonstrate with practical examples that these alone are not sufficient to ensure long-term computational reproducibility. Combining containerization, dependence management, version management, and dynamic document generation, the proposed workflow increases scientific productivity by facilitating later reproducibility and reuse of code and data.
 
