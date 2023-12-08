@@ -1,5 +1,10 @@
 # Learning R for Behavioral Science
-Repository for learning R
+<style>
+mark{
+    color:red;
+}
+</style>
+<mark>Qijia LIAO's recipe for learning Consumer Behavior and Behavioral Science. </mark> 
 
 # Table of Contents
 - [Learning Statistics with R](#learning-statistics-with-r)
