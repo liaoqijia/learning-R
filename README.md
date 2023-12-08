@@ -1,10 +1,7 @@
 # Learning R for Behavioral Science
-<style>
-mark{
-    color:red;
-}
-</style>
-<mark>Qijia LIAO's recipe for learning Consumer Behavior and Behavioral Science. </mark> 
+<div style="background-color: #f0f0f0; padding: 20px; border-radius: 5px;">
+
+Qijia LIAO's recipe for learning Consumer Behavior and Behavioral Science. 
 
 # Table of Contents
 - [Learning Statistics with R](#learning-statistics-with-r)
