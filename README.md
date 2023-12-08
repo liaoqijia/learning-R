@@ -1,5 +1,4 @@
 # Learning R for Behavioral Science
-<div style="background-color: #f0f0f0; padding: 20px; border-radius: 5px;">
 
 Qijia LIAO's recipe for learning Consumer Behavior and Behavioral Science. 
 
