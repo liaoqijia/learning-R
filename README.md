@@ -94,12 +94,17 @@ For more complex design, refer to the link below for details.
 <!-- anchor: my-favorite-r-packages-for-summarizing-and-visualizing-data -->
 There are alternatives that offer simpler approaches to data visualization.
 - Data and Model Summaries in R with `modelsummary` R package. [Data and Model Summaries in R](https://modelsummary.com/)
-
 - `ggpubr`: ggplot2 Based Publication Ready Plots (I use it almost everyday). [ggpubr](https://rpkgs.datanovia.com/ggpubr/index.html#ggpubr-ggplot2-based-publication-ready-plots)
-
 - `ggstatsplot`: ggplot2 Based Plots with Statistical Details. [ggstatsplot](https://indrajeetpatil.github.io/ggstatsplot/)
-
 - `ganttrify` facilitates the creation of nice-looking Gantt charts. [ganttrify](https://github.com/giocomai/ganttrify)
+- `ggcharts` provides a high-level {ggplot2} interface for creating common charts[ggcharts](https://thomas-neitmann.github.io/ggcharts/index.html).
+- `calendR` uses R to create 
+- `ggpmisc` is a set of extensions to R package ‘ggplot2’ (>= 3.0.0) with emphasis on annotations and plotting related to fitted models[ggpmisc](https://docs.r4photobiology.info/ggpmisc/)
+- `lindia` is an extention to ggplot2 to provide streamlined plotting features of linear model diagnostic plots[lindia](https://github.com/yeukyul/lindia)
+- [131 registered `ggplot2 extensions` available to explore](https://exts.ggplot2.tidyverse.org/gallery/)
+- [Youtube TidyTuesday: Common GGplot2 Extensions](https://www.youtube.com/watch?v=mH-Me-yYkzs)
+
+
 
 ## Mediation Analysis with Hayes' Process in R
 <!-- anchor: mediation-analysis-with-hayes-process-in-r -->
