@@ -145,6 +145,25 @@ You can get standardized effects for all the regression paths by setting the sta
 Example:
 stand =1
 
+Comparing Indirect Effects in Parallel Mediation
+If you run a model with parallel mediation paths (e.g. model 4) you can compare those paths by setting the contrast parameter. If you set it to 1 you get a test for the difference between their regression weights, if you set it to 2 you get a test for the difference of the absolute values of their regression weights. This second value can be useful if you want to compare one positive indirect effect with a negative one in order to assess whether the positive one is (in absolute terms) significantly larger than the negative one.
+Examples:
+contrast =1
+
+Number of Bootstrap Samples
+By default, for models with bootstrapping the number of bootstrap samples is 5,000. You can change this by setting the boot parameter to the number of samples you would like to have.
+Example:
+boot = 5000
+
+Bootstrapping Not Only for Indirect Effects**
+By default, PROCESS uses bootstrapping for the indirect effects. If you want to get robust confidence intervals for the rest of the estimates you can do that by setting the modelbt parameter to 1. Otherwise you would have to test the normality assumption before reporting the test results for the a-path, b-path and c'-path.
+Example:
+modelbt = 1
+
+Bootstrapping - Start Value for the Random Numbers Generator
+If you want to get the same results each time you can give the random number generator a start value by setting the seed parameter to any integer number. (It is not important which number you choose.)
+seed = 654321
+
 ```
 [Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
 ```
