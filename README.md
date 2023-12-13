@@ -127,44 +127,40 @@ process(data = results_df, y = "likelydiff", x = "time",
         m =c("authenticdiff"), w = c("issue"), 
         model = 15, effsize =1, total =1, stand =1, contrast =1, boot = 5000 , modelbt = 1, seed = 654321)
 
-Effect size (indirect effect)
-
-If you run a mediation model you can calculate effect sizes (partially standardized = ps, and completely standardized indirect effects = cs) by setting the effsize parameter to 1.
-Example:
-effsize =1
-
-Total effect
-
-If you run a mediation model you can test the total effect (= c-path) by setting the total parameter to 1.
-Example:
-total =1
-
-Standardized Effects
-
-You can get standardized effects for all the regression paths by setting the stand parameter to 1.
-Example:
-stand =1
-
-Comparing Indirect Effects in Parallel Mediation
-If you run a model with parallel mediation paths (e.g. model 4) you can compare those paths by setting the contrast parameter. If you set it to 1 you get a test for the difference between their regression weights, if you set it to 2 you get a test for the difference of the absolute values of their regression weights. This second value can be useful if you want to compare one positive indirect effect with a negative one in order to assess whether the positive one is (in absolute terms) significantly larger than the negative one.
-Examples:
-contrast =1
-
-Number of Bootstrap Samples
-By default, for models with bootstrapping the number of bootstrap samples is 5,000. You can change this by setting the boot parameter to the number of samples you would like to have.
-Example:
-boot = 5000
-
-Bootstrapping Not Only for Indirect Effects**
-By default, PROCESS uses bootstrapping for the indirect effects. If you want to get robust confidence intervals for the rest of the estimates you can do that by setting the modelbt parameter to 1. Otherwise you would have to test the normality assumption before reporting the test results for the a-path, b-path and c'-path.
-Example:
-modelbt = 1
-
-Bootstrapping - Start Value for the Random Numbers Generator
-If you want to get the same results each time you can give the random number generator a start value by setting the seed parameter to any integer number. (It is not important which number you choose.)
-seed = 654321
-
 ```
+
+#### Effect Size (Indirect Effect)
+
+- When running a mediation model, you can calculate effect sizes, including partially standardized (ps) and completely standardized indirect effects (cs), by setting the `effsize` parameter to 1.
+
+#### Total Effect
+
+- To test the total effect (= c-path) in a mediation model, set the `total` parameter to 1.
+
+#### Standardized Effects
+
+- Obtain standardized effects for all regression paths by setting the `stand` parameter to 1.
+
+#### Comparing Indirect Effects in Parallel Mediation
+
+- For models with parallel mediation paths (e.g., model 4), compare these paths by setting the `contrast` parameter.
+- Use 1 for a test of the difference between their regression weights and 2 for a test of the difference in absolute values of their regression weights. This is useful for comparing positive and negative indirect effects.
+
+#### Number of Bootstrap Samples
+
+- By default, for models with bootstrapping, the number of bootstrap samples is 5,000.
+- Change this by setting the `boot` parameter to the desired number of samples.
+
+#### Bootstrapping Not Only for Indirect Effects
+
+- By default, PROCESS uses bootstrapping for indirect effects.
+- Obtain robust confidence intervals for other estimates by setting the `modelbt` parameter to 1.
+- Otherwise, test the normality assumption before reporting results for the a-path, b-path, and c'-path.
+
+#### Bootstrapping - Start Value for the Random Numbers Generator
+
+- For consistent results, set the random number generator's start value by using the `seed` parameter with any integer number.
+
 [Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
 ```
 @article{nam2023speedy,
