@@ -156,13 +156,12 @@ process(data = results_df, y = "likelydiff", x = "time",
 - Otherwise, test the normality assumption before reporting results for the a-path, b-path, and c'-path.
 
 #### Bootstrapping - Start Value for the Random Numbers Generator
-
-#### PROCESS for R: Syntax Options
-[R: Syntax Options](https://youtu.be/vIKWpqvZQb4?si=xGbz1-w5ZgT-SuIf)
-
 - For consistent results, set the random number generator's start value by using the `seed` parameter with any integer number.
 
-[Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
+#### PROCESS for R: Syntax Options
+- [R: Syntax Options](https://youtu.be/vIKWpqvZQb4?si=xGbz1-w5ZgT-SuIf)
+
+- [Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
 ```
 @article{nam2023speedy,
   title={Speedy activists: How firm response time to sociopolitical events influences consumer behavior},
