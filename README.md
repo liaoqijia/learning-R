@@ -123,9 +123,42 @@ use source function to read the process syntax
 source(file = "/Users/nphillips/Dropbox/yarrr/Process.R")
 
 now you can use the Process in your RStudio, just like anyother R package.
-process (data = my_data_frame, y = "my_DV", x = "my_IV", m ="my_mediator", model = 4)
-```
+process(data = results_df, y = "likelydiff", x = "time", 
+        m =c("authenticdiff"), w = c("issue"), 
+        model = 15, effsize =1, total =1, stand =1, contrast =1, boot = 5000 , modelbt = 1, seed = 654321)
 
+Effect size (indirect effect)
+
+If you run a mediation model you can calculate effect sizes (partially standardized = ps, and completely standardized indirect effects = cs) by setting the effsize parameter to 1.
+Example:
+effsize =1
+
+Total effect
+
+If you run a mediation model you can test the total effect (= c-path) by setting the total parameter to 1.
+Example:
+total =1
+
+Standardized Effects
+
+You can get standardized effects for all the regression paths by setting the stand parameter to 1.
+Example:
+stand =1
+
+```
+[Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
+```
+@article{nam2023speedy,
+  title={Speedy activists: How firm response time to sociopolitical events influences consumer behavior},
+  author={Nam, Jimin and Balakrishnan, Maya and De Freitas, Julian and Brooks, Alison Wood},
+  journal={Journal of Consumer Psychology},
+  volume={33},
+  number={4},
+  pages={632--644},
+  year={2023},
+  publisher={Wiley Online Library}
+}
+```
 ## Youtube tutorials of learning R (If you learn how to use tidyverse, you learn R!!!)
 <!-- anchor: youtube-tutorials-of-learning-r-if-you-learn-how-to-use-tidyverse-you-learn-r -->
 - Official cheatsheet for data wrangling:
