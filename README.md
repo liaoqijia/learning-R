@@ -157,6 +157,9 @@ process(data = results_df, y = "likelydiff", x = "time",
 
 #### Bootstrapping - Start Value for the Random Numbers Generator
 
+#### PROCESS for R: Syntax Options
+[R: Syntax Options](https://youtu.be/vIKWpqvZQb4?si=xGbz1-w5ZgT-SuIf)
+
 - For consistent results, set the random number generator's start value by using the `seed` parameter with any integer number.
 
 [Model 15: study4_process_analysis.R](https://osf.io/esu3y?view_only=91b3c34f739b44778d8d6d0eae6f54e2)
