@@ -73,8 +73,6 @@ For more complex design, refer to the link below for details.
 
 ### Follow Up to One-way ANOVAs, including Post-Hoc Analysis
 <!-- anchor: follow-up-to-one-way-anovas-including-post-hoc-analysis -->
-
-### Follow Up to One-way ANOVAs, including Post-Hoc Analysis
 - [Follow Up to One-way ANOVAs](https://www.alexanderdemos.org/ANOVA6.html)
 
 ### Following up the Two-Way ANOVA, including Post-Hoc Analysis
